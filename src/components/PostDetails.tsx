@@ -48,7 +48,9 @@ const PostDetails: React.FC = () => {
             </Typography>
           </Toolbar>
         </AppBar>
-        <Typography>Loading...</Typography>
+        <Container maxWidth="sm" style={{ backgroundColor: '#9d8072', padding: '10px' }}>
+          <Typography style={{ color: '#433630', fontSize: '3em', fontWeight: 'bold', textAlign: 'center'}}>No se ha encontrado un blog con esta id :(</Typography>
+        </Container>
       </Container>
     );
   }
