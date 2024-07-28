@@ -8,10 +8,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<PostsList />} />
-        <Route path="/posts" element={<PostsList />} />
-        <Route path="/posts/:id" element={<PostDetails />} />
-        <Route path="/posts/create" element={<PostForm />} />
+        <Route path="/frontEndBlog" element={<PostsList />} />
+        <Route path="/frontEndBlog/posts" element={<PostsList />} />
+        <Route path="/frontEndBlog/posts/:id" element={<PostDetails />} />
+        <Route path="/frontEndBlog/posts/create" element={<PostForm />} />
       </Routes>
     </Router>
   );

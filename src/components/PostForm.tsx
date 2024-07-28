@@ -46,13 +46,13 @@ const PostForm: React.FC = () => {
                     <IconButton edge="start" style={{ color: '#9d8072' }} aria-label="home">
                         <HouseIcon fontSize="large" />
                     </IconButton>
-                    <Typography variant="h6" component={Link} to="/" style={{ flexGrow: 1, textDecoration: 'none', color: '#9d8072', fontSize: '2em', fontWeight: 'bold' }}>
+                    <Typography variant="h6" component={Link} to="/frontEndBlog" style={{ flexGrow: 1, textDecoration: 'none', color: '#9d8072', fontSize: '2em', fontWeight: 'bold' }}>
                         Home
                     </Typography>
-                    <IconButton color="inherit" component={Link} to="/posts/create" style={{ textDecoration: 'none', color: '#9d8072' }}>
+                    <IconButton color="inherit" component={Link} to="/frontEndBlog/posts/create" style={{ textDecoration: 'none', color: '#9d8072' }}>
                         <AddIcon fontSize="large" />
                     </IconButton>
-                    <Typography variant="h6" component={Link} to="/posts/create" style={{ textDecoration: 'none', color: '#9d8072', fontSize: '2em', fontWeight: 'bold' }}>
+                    <Typography variant="h6" component={Link} to="/frontEndBlog/posts/create" style={{ textDecoration: 'none', color: '#9d8072', fontSize: '2em', fontWeight: 'bold' }}>
                         Create
                     </Typography>
                 </Toolbar>
