@@ -20,7 +20,7 @@ const PostDetails: React.FC = () => {
   const [post, setPost] = useState<Post | null>(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/api/posts/${id}/`)
+    axios.get(`http://34.199.239.94:8000/api/posts/${id}/`)
       .then(response => {
         setPost(response.data);
       })
