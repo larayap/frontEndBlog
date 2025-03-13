@@ -12,7 +12,7 @@ const PostsList: React.FC = () => {
   const [posts, setPosts] = useState<any[]>([]);
 
   useEffect(() => {
-    axios.get('http://34.199.239.94:8000/api/posts/')
+    axios.get('https://backendblog-919v.onrender.com/api/posts/')
       .then(response => {
         setPosts(response.data);
       })

@@ -26,7 +26,7 @@ const PostForm: React.FC = () => {
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://34.199.239.94:8000/api/posts/', {
+            const response = await axios.post('https://backendblog-919v.onrender.com/api/posts/', {
                 title,
                 content,
                 author

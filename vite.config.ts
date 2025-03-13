@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',  // Cambia esto con la URL de tu servidor Django
+        target: 'https://backendblog-919v.onrender.com',  // Cambia esto con la URL de tu servidor Django
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
