@@ -47,7 +47,7 @@ const PostsList: React.FC = () => {
           <List style={{ width: '100%', alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
             {posts.map((post) => (
               <Paper key={post.id} elevation={2} style={{ marginBottom: '10px', width: '95%', backgroundColor: '#715b51' }}>
-                <ListItem button component={Link} to={`/posts/${post.id}`}>
+                <ListItem button component={Link} to={`/frontEndBlog/posts/${post.id}`}>
                   <ListItemText
                     primary={post.title}
                     primaryTypographyProps={{
